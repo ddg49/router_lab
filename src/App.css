@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 11px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 8px 15px;
+  background-color: cornflowerblue;
+}
+
+.nav a:hover {
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+  color: black; 
+}
+
+p {
+  max-width: 650px;
+  margin: auto;
+}
