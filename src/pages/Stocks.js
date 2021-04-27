@@ -10,7 +10,7 @@ const Stocks = () => {
         {name: "Facebook, Inc.", symbol: "FB"},
         {name: "Oracle Corporation", symbol: "ORCL"},
     ]
-
+// THE INTEL STOCK WAS NOT SHOWING UP IN THE API, SO I HAD TO DELETE IT
     const stocklist = stocks.map((item) => {
         const stockName = item.name
         const stockSymbol = item.symbol
